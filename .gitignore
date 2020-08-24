@@ -13,6 +13,8 @@ client/yarn-debug.log*
 client/yarn-error.log*
 client/pnpm-debug.log*
 
+server/__pycache__
+server/app/__pycache__
 
 env
 # Editor directories and files

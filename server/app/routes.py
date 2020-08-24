@@ -73,7 +73,7 @@ def ping_pong():
     return jsonify('pong')
 
 def remove_book(book_id):
-    global BOOKS
+    global BOOK
     BOOKS = [i for i in BOOKS if i['id']!=book_id]
     print(BOOKS)
     for book in BOOKS:
