@@ -9,7 +9,7 @@ help:
 	@echo " 	run the flask app"
 
 test:
-	python -m unittest discover
+	python -m unittest discover -s ./tests
 
 run:
 	flask run
